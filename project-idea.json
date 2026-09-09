@@ -1,0 +1,31 @@
+{
+  "project_name": "dataweave",
+  "title": "DataWeave - Declarative Data Pipeline Framework",
+  "category": "data-engineering",
+  "difficulty": "advanced",
+  "description": "A pip-installable data pipeline framework with YAML-defined ETL workflows. Built-in operators for transform, validate, profile, and load data with HTML profiling reports.",
+  "tech_stack": [
+    "pandas",
+    "pydantic",
+    "pyyaml",
+    "click",
+    "jinja2",
+    "pytest"
+  ],
+  "features": [
+    "YAML-defined pipeline configuration",
+    "Built-in operators: filter, transform, aggregate, join, validate",
+    "Automatic schema inference",
+    "Data quality checks",
+    "HTML profiling report generation"
+  ],
+  "test_status": "PASSED",
+  "sample_input": {
+    "description": "CSV data and YAML pipeline config",
+    "example": "dataweave run --pipeline pipeline.yaml --input data.csv"
+  },
+  "sample_output": {
+    "description": "Transformed data and quality report",
+    "example": "dataweave profile --input data.csv --output report.html"
+  }
+}
