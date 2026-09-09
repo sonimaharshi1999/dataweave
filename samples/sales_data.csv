@@ -1,0 +1,26 @@
+order_id,customer_name,email,product,category,quantity,unit_price,discount,order_date,region,status
+1001,Alice Johnson,alice@example.com,Widget A,Electronics,3,29.99,0.1,2024-01-15,North,completed
+1002,Bob Smith,bob@example.com,Gadget B,Electronics,1,149.99,0.0,2024-01-16,South,completed
+1003,Carol White,carol@example.com,Widget A,Electronics,2,29.99,0.05,2024-01-16,East,completed
+1004,Dave Brown,dave@example.com,Service Plan,Services,1,99.00,0.0,2024-01-17,West,pending
+1005,Eve Davis,eve@example.com,Gadget C,Electronics,5,49.99,0.15,2024-01-17,North,completed
+1006,Frank Miller,frank@example.com,Widget B,Hardware,10,12.50,0.2,2024-01-18,South,completed
+1007,Grace Lee,grace@example.com,Service Plan,Services,2,99.00,0.0,2024-01-18,East,pending
+1008,Hank Wilson,hank@example.com,Gadget B,Electronics,1,149.99,0.05,2024-01-19,West,cancelled
+1009,Ivy Chen,ivy@example.com,Widget A,Electronics,4,29.99,0.1,2024-01-19,North,completed
+1010,Jack Taylor,,Widget C,Hardware,2,75.00,0.0,2024-01-20,South,completed
+1011,Kathy Adams,kathy@example.com,Gadget C,Electronics,3,49.99,0.0,2024-01-20,East,completed
+1012,Leo Martinez,leo@example.com,Service Plan,Services,1,99.00,0.1,2024-01-21,West,completed
+1013,Mona Ross,mona@example.com,Widget B,Hardware,8,12.50,0.0,2024-01-21,North,completed
+1014,Nick Clark,nick@example.com,Gadget A,Electronics,1,199.99,0.0,2024-01-22,South,completed
+1015,Olivia King,olivia@example.com,Widget A,Electronics,6,29.99,0.2,2024-01-22,East,completed
+1016,Paul Wright,paul@example.com,Gadget B,Electronics,2,149.99,0.1,2024-01-23,West,pending
+1017,Quinn Lopez,quinn@example.com,Service Plan,Services,1,99.00,0.0,2024-01-23,North,completed
+1018,Rita Hill,rita@example.com,Widget C,Hardware,3,75.00,0.05,2024-01-24,South,completed
+1019,Sam Green,,Gadget C,Electronics,2,49.99,0.0,2024-01-24,East,completed
+1020,Tina Scott,tina@example.com,Widget A,Electronics,1,29.99,0.0,2024-01-25,West,completed
+1021,Uma Patel,uma@example.com,Gadget A,Electronics,2,199.99,0.15,2024-01-25,North,completed
+1022,Vince Young,vince@example.com,Widget B,Hardware,15,12.50,0.25,2024-01-26,South,completed
+1023,Wendy Fox,wendy@example.com,Service Plan,Services,1,99.00,0.0,2024-01-26,East,pending
+1024,Xander Reed,xander@example.com,Gadget B,Electronics,1,149.99,0.0,2024-01-27,West,completed
+1025,Yara Diaz,yara@example.com,Widget A,Electronics,3,29.99,0.1,2024-01-27,North,completed
