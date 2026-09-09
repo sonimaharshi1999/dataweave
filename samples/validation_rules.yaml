@@ -1,0 +1,37 @@
+rules:
+  - column: order_id
+    check: not_null
+    severity: error
+
+  - column: order_id
+    check: unique
+    severity: error
+
+  - column: quantity
+    check: min
+    value: 1
+    severity: error
+
+  - column: unit_price
+    check: min
+    value: 0
+    severity: error
+
+  - column: discount
+    check: max
+    value: 1.0
+    severity: warning
+
+  - column: status
+    check: in_set
+    value: [completed, pending, cancelled, refunded]
+    severity: error
+
+  - column: email
+    check: pattern
+    value: "^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+$"
+    severity: warning
+
+  - column: region
+    check: not_null
+    severity: error

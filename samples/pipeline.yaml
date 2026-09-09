@@ -1,0 +1,53 @@
+name: sales_etl_pipeline
+description: "Clean, transform, and aggregate sales data"
+
+source:
+  path: sales_data.csv
+  format: csv
+
+steps:
+  - name: remove_cancelled
+    operator: filter
+    params:
+      column: status
+      op: ne
+      value: cancelled
+
+  - name: compute_revenue
+    operator: transform
+    params:
+      expressions:
+        gross_amount: "quantity * unit_price"
+
+  - name: select_columns
+    operator: select
+    params:
+      columns:
+        - order_id
+        - customer_name
+        - product
+        - category
+        - quantity
+        - unit_price
+        - discount
+        - gross_amount
+        - order_date
+        - region
+        - status
+
+  - name: sort_by_date
+    operator: sort
+    params:
+      by: order_date
+      ascending: true
+
+  - name: deduplicate
+    operator: deduplicate
+    params:
+      subset:
+        - order_id
+      keep: first
+
+output:
+  path: output/cleaned_sales.csv
+  format: csv
