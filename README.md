@@ -2,7 +2,7 @@
 
 **Declarative Data Pipeline Framework** -- Define ETL workflows in YAML. Transform, validate, profile, and load data with zero configuration.
 
-[![Tests](https://github.com/maharshisoni/dataweave/actions/workflows/test.yml/badge.svg)](https://github.com/maharshisoni/dataweave/actions)
+[![Tests](https://github.com/sonimaharshi1999/dataweave/actions/workflows/test.yml/badge.svg)](https://github.com/sonimaharshi1999/dataweave/actions)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
@@ -88,7 +88,7 @@ flowchart TD
 
 ```bash
 # From source
-git clone https://github.com/maharshisoni/dataweave.git
+git clone https://github.com/sonimaharshi1999/dataweave.git
 cd dataweave
 pip install -e ".[dev]"
 
