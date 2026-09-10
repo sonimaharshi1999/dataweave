@@ -285,6 +285,25 @@ dataweave/
 
 ---
 
+
+
+---
+
+## Sample Input / Output
+
+![Sample Input and Output](assets/io-card.png)
+
+---
+
+## Project Overview
+
+![Project Summary](assets/report-card.png)
+
+### Reports
+- [HTML Report](reports/dataweave-report.html) - interactive report
+- [PDF Report](reports/dataweave-report.pdf) - downloadable PDF
+- [TXT Report](reports/dataweave-report.txt) - plain text
+
 ## License
 
 MIT License -- Maharshi Soni

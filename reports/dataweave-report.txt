@@ -1,0 +1,98 @@
+======================================================================
+  DataWeave - Declarative Data Pipeline Framework
+======================================================================
+
+Author: Maharshi Soni
+Category: data-engineering
+Difficulty: advanced
+
+----------------------------------------------------------------------
+DESCRIPTION
+----------------------------------------------------------------------
+A pip-installable data pipeline framework with YAML-defined ETL workflows. Built-in operators for transform, validate, profile, and load data with HTML profiling reports.
+
+----------------------------------------------------------------------
+TECH STACK
+----------------------------------------------------------------------
+  - pandas
+  - pydantic
+  - pyyaml
+  - click
+  - jinja2
+  - pytest
+
+----------------------------------------------------------------------
+FEATURES
+----------------------------------------------------------------------
+  * YAML-defined pipeline configuration
+  * Built-in operators: filter, transform, aggregate, join, validate
+  * Automatic schema inference
+  * Data quality checks
+  * HTML profiling report generation
+
+----------------------------------------------------------------------
+SAMPLE INPUT
+----------------------------------------------------------------------
+  CSV data and YAML pipeline config
+
+  Example:
+    dataweave run --pipeline pipeline.yaml --input data.csv
+
+----------------------------------------------------------------------
+SAMPLE OUTPUT
+----------------------------------------------------------------------
+  Transformed data and quality report
+
+  Example:
+    dataweave profile --input data.csv --output report.html
+
+----------------------------------------------------------------------
+PROJECT STRUCTURE
+----------------------------------------------------------------------
+  .gitignore
+  project-idea.json
+  pyproject.toml
+  README.md
+  .github/workflows/test.yml
+  samples/pipeline.yaml
+  samples/sales_data.csv
+  samples/validation_rules.yaml
+  src/dataweave/cli.py
+  src/dataweave/engine.py
+  src/dataweave/loader.py
+  src/dataweave/models.py
+  src/dataweave/profiler.py
+  src/dataweave/py.typed
+  src/dataweave/report.py
+  src/dataweave/schema.py
+  src/dataweave/__init__.py
+  src/dataweave/__version__.py
+  src/dataweave/operators/base.py
+  src/dataweave/operators/core.py
+  src/dataweave/operators/__init__.py
+  src/dataweave.egg-info/dependency_links.txt
+  src/dataweave.egg-info/entry_points.txt
+  src/dataweave.egg-info/PKG-INFO
+  src/dataweave.egg-info/requires.txt
+  src/dataweave.egg-info/SOURCES.txt
+  src/dataweave.egg-info/top_level.txt
+  tests/conftest.py
+  tests/test_cli.py
+  tests/test_engine.py
+  tests/test_models.py
+  tests/test_operators.py
+  tests/test_profiler.py
+  tests/test_schema.py
+  tests/__init__.py
+
+----------------------------------------------------------------------
+TEST RESULTS
+----------------------------------------------------------------------
+  Status: PASSED
+  Tests Run: 57
+  Passed: 57
+  Failed: 0
+
+======================================================================
+  Author: Maharshi Soni  |  License: MIT
+======================================================================
