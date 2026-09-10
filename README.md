@@ -4,9 +4,14 @@
 
 [![Tests](https://github.com/sonimaharshi1999/dataweave/actions/workflows/test.yml/badge.svg)](https://github.com/sonimaharshi1999/dataweave/actions)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://python.org)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![PyPI](https://img.shields.io/pypi/v/dataweave-lib)](https://pypi.org/project/dataweave-lib/) [![Downloads](https://img.shields.io/pypi/dm/dataweave-lib)](https://pypi.org/project/dataweave-lib/)
 
 ---
+
+
+`ash
+pip install dataweave-lib
+`
 
 ## Why I Built This
 
